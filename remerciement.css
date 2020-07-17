@@ -1,0 +1,46 @@
+.validation{
+  /*  text-align: center;*/
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color:  white;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.msg{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.form{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    background-color: #69a469;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #03224c;
+}
+body{
+     background-image: url(img/voiture2.jpg);
+      -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.btn{
+     border:1px solid #ececec;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #1f1f1f;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 200px; 
+    
+}

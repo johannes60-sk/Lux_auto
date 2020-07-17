@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/voiture3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    background-color: #03224c;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+.form:hover{
+    background-color: rgb(1,121,111);
+}
+
+.titre{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color:  white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.form input,select{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form input[type=text] , .form input[type=number] , .form input[type=email]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    display: 16px;
+    color: #fff;
+}
+
+::placeholder{
+    color: red;
+}
+
+.form select{
+    margin-top: 20px;
+    padding: 10px , 0;
+}
+
+.form input[type=submit] , .form input[type=reset]{
+    border:none;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(149,165,149);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
